@@ -20,6 +20,9 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <div className="watermark">
+        ✨ Designed by Lucas G.
+      </div>
     </TooltipProvider>
   </QueryClientProvider>
 );
